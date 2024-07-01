@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'titlee': ['titlee'],
         'oswald':['oswald'],
+        'mars':['mars']
       
       }
     },

@@ -17,4 +17,11 @@
     font-style: normal;
     display: swap;
   }
+  @font-face {
+    font-family: mars;
+    src: url(/public/fonts/Mars/Mars.ttf);
+    font-weight: regular;
+    font-style: normal;
+    display: swap;
+  }
 }
