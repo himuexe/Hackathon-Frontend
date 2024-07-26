@@ -34,6 +34,13 @@
     font-style: normal;
     display: swap;
   }
+  @font-face {
+    font-family: swera;
+    src: url(../public/fonts/swera/Swera\ Regular\ Demo.otf);
+    font-weight: regular;
+    font-style: normal;
+    display: swap;
+  }
 
   html,
   body {
