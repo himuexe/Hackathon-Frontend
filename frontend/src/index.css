@@ -76,3 +76,14 @@
     );
     box-shadow: 0vw 1vw 3vw 1vw #6a5acd;
   }
+  .bg {
+    position: relative;
+    isolation: isolate;
+    height: 100vh;
+  }
+  .bg::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+  }

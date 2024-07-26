@@ -23,8 +23,6 @@ const section2 = () => {
     );
     divs.forEach((div) => observer.observe(div));
   });
-
-  const ref = useRef();
   return (
     <React.Fragment>
       <div className="section2">

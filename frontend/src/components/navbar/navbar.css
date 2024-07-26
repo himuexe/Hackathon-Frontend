@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: rgb(238, 231, 243);
     padding: 0.3vw;
     border-radius:  1vw ;
     
@@ -42,7 +42,7 @@
     font-family: fira sans condensed;
     letter-spacing: 2px;
     font-size: 1vw;
-    font-weight: 500;
+    font-weight: 600;
     
   }
   .components ul li p {
@@ -84,8 +84,9 @@
     position: relative;
     font-family: poppins;
     font-size: 1.2vw;
+    font-weight: 500;
     padding: 0.5vh 1vw;
-    border: 4px solid slategray;
+    border: 4px solid black;
     border-radius: 0.5vw;
   }
   
