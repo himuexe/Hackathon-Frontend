@@ -17,6 +17,23 @@
     display: swap;
   }
 
+
+@font-face {
+    font-family: panda;
+    src: url(../public/fonts/kung-fu-master-font/KungFuMaster3D-K7vxe.otf);
+    font-weight: regular;
+    font-style: normal;
+    display: swap;
+  }
+
+@font-face {
+    font-family: mideltone;
+    src: url(../public/fonts/mideltone/MIDELTONEROUGH.ttf);
+    font-weight: regular;
+    font-style: normal;
+    display: swap;
+  }
+
   html,
   body {
     overflow-x: hidden;

@@ -1,0 +1,268 @@
+.section2 {
+  position: relative;
+  isolation: isolate;
+  background-color: black;
+}
+
+.agenda {
+  position: relative;
+  padding: 3vw;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    padding: 0vh 1vw;
+    padding-top: 5vh;
+  }
+}
+.agenda .title2 {
+  display: flex;
+  align-items: center;
+}
+
+.agenda .title2 .title-name {
+  font-size: 50px;
+  color: whitesmoke;
+  margin-left: 6vw;
+  font-family: "panda";
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  position: relative;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 40px;
+    margin-left: 17vw;
+  }
+}
+
+.title-name::after {
+  content: "";
+  z-index: -1;
+  border-bottom: 4px solid white;
+  width: 35vw;
+}
+
+.agenda .title2 img {
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    width: 55px;
+    left: 3vw;
+  }
+}
+
+.agenda-text {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  gap: 5vw;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    padding: 1vh 2vw;
+    margin: 0;
+  }
+}
+.agenda-des {
+  text-align: justify;
+  padding: 3vh 3vw;
+  border: 5px solid blueviolet;
+  font-family: raleway;
+  font-size: 1.5vw;
+  font-weight: 600;
+  position: relative;
+  color: white;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 3.5vw;
+    padding: 2vh 3vw;
+  }
+}
+.agenda-des::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  background-color: rgb(255, 60, 111, 0.1);
+}
+
+.parent-vision {
+  position: relative;
+  padding: 0vh 3vw;
+  padding-bottom: 10vh;
+  position: 99;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    padding: 0;
+  }
+}
+.parent-vision::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.1;
+}
+
+.about-vision-image,
+.about-mission-image {
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    display: none;
+  }
+}
+.vision {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5vh;
+  margin-right: -3vw;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    padding: 0;
+    margin-top: 3vh;
+    margin-right: 0;
+  }
+}
+.about-vision-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: panda;
+  font-size: 4vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  opacity: 0;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 6vw;
+    margin: 0;
+    padding: 0vh 2vw;
+  }
+}
+
+.about-vision-description {
+  width: 50%;
+  text-align: justify;
+  padding: 2vh 2vw;
+  border-top: 5px solid blueviolet;
+  border-left: 5px solid blueviolet;
+  border-bottom: 5px solid blueviolet;
+  font-family: raleway;
+  font-size: 1.3vw;
+  font-weight: 600;
+  position: relative;
+  isolation: isolate;
+  background: rgb(0, 0, 0, 0.9);
+  color: white;
+  opacity: 0;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 2.5vw;
+    width: 70%;
+    padding: 1vh 2vw;
+  }
+}
+
+.about-vision-description::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 60, 111, 0.1);
+}
+
+.mission {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-left: -3vw;
+  position: relative;
+  isolation: isolate;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    margin-top: 3vh;
+    margin-left: 0;
+    padding-bottom: 3vh;
+  }
+}
+.mission::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.about-mission-title {
+  margin-right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: panda ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 4vw;
+  font-weight: 100;
+  color: white;
+  opacity: 0;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 6vw;
+    margin: 0;
+    padding: 0vh 2vw;
+  }
+}
+
+.about-mission-description {
+  width: 50%;
+  text-align: justify;
+  padding: 2vh 2vw;
+  border-top: 5px solid blueviolet;
+  border-right: 5px solid blueviolet;
+  border-bottom: 5px solid blueviolet;
+  font-family: raleway;
+  font-size: 1.3vw;
+  font-weight: 600;
+  position: relative;
+  isolation: isolate;
+  color: white;
+  opacity: 0;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 2.5vw;
+    width: 70%;
+    padding: 1vh 2vw;
+  }
+}
+
+.about-mission-description::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 60, 111, 0.1);
+
+}
+
+.agendaScrollAnimateRight {
+  animation: aboutDes 0.3s linear forwards;
+}
+@keyframes aboutDes {
+  0% {
+    transform: translateX(50vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.agendaScrollAnimateLeft {
+  animation: aboutDes1 0.3s linear forwards;
+}
+@keyframes aboutDes1 {
+  0% {
+    transform: translateX(-50vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css'
-import Navbar from './components/navbar/navbar';
+import Navbar from "./components/navbar/navbar"
+import Hero from "./components/hero/hero"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <BrowserRouter>
@@ -13,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           element={
             <div>
               <Navbar />
-              {/* <Hero /> */}
+              <Hero />
             </div>
           }
         />
