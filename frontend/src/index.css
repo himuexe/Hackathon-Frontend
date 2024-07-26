@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira Sans Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
 
@@ -49,4 +50,29 @@
   }
   p {
     -webkit-tap-highlight-color: transparent;
+  }
+  .bg-sep {
+    position: relative;
+    height: 0.2vh;
+  }
+  .bg-sep::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #f1f1f2,
+      #e5e2e4,
+      #d9d4d7,
+      #cdc6c8,
+      #cdc6c8,
+      #cdc6c8,
+      #cdc6c8,
+      #d9d4d7,
+      #e5e2e4,
+      #f1f1f2,
+      #ffffff
+    );
+    box-shadow: 0vw 1vw 3vw 1vw #6a5acd;
   }

@@ -240,7 +240,7 @@
 }
 
 .agendaScrollAnimateRight {
-  animation: aboutDes 0.3s linear forwards;
+  animation: aboutDes 0.7s linear forwards;
 }
 @keyframes aboutDes {
   0% {
@@ -253,8 +253,9 @@
   }
 }
 
+
 .agendaScrollAnimateLeft {
-  animation: aboutDes1 0.3s linear forwards;
+  animation: aboutDes1 0.7s linear forwards;
 }
 @keyframes aboutDes1 {
   0% {
