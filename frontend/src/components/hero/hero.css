@@ -328,9 +328,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1vw;
-    background-color: #4d4855;
-    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
-    background-image: url("/images/planet2.webp");
+    border: 2px solid blueviolet;
+    background-color: rgb(255, 60, 111, 0.1);
     isolation: isolate;
     transition: all 0.1s linear;
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -385,12 +384,12 @@
     color: #d9e4f5;
     background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
     background-clip: text;
-    font-family: poppins;
-    font-weight: 900;
+    
+    font-weight: 500;
     font-size: 1.5vw;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: 2px dotted white;
+    border-bottom: 2px solid blueviolet;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -426,8 +425,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px dotted slategrey;
-    cursor: pointer;
+    border-bottom: 2px dotted blueviolet;
+    cursor: pointer;    
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
       font-size: 5vw;
     }
@@ -440,7 +439,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px dotted slategrey;
+    border-bottom: 2px dotted blueviolet;
     cursor: pointer;
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
       font-size: 5vw;
@@ -454,9 +453,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1vw;
-    background-color: #4d4855;
-    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
-    background-image: url("/images/light.webp");
+    border: 2px solid blueviolet;
+    background-color: rgb(255, 60, 111, 0.1);
     isolation: isolate;
     overflow: hidden;
     transition: all 0.1s linear;
@@ -473,7 +471,6 @@
     inset: 0;
     z-index: -1;
     backdrop-filter: blur(1.5px);
-    background: black;
     opacity: 0.6;
   }
   .info-icon {
@@ -487,12 +484,11 @@
     color: #d9e4f5;
     background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
     background-clip: text;
-    font-family: poppins;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 1.3vw;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: 2px dotted white;
+    border-bottom: 2px solid blueviolet;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -508,7 +504,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px dotted slategrey;
+    border-bottom: 2px dotted blueviolet;
     cursor: pointer;
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
       font-size: 5vw;
@@ -520,7 +516,7 @@
     font-size: 1.2vw;
     display: flex;
     align-items: center;
-    border-bottom: 2px dotted slategrey;
+    border-bottom: 2px dotted blueviolet;
     color: white;
     justify-content: space-between;
     cursor: pointer;
@@ -534,13 +530,12 @@
     position: relative;
     height: fit-content;
     padding: 1vw;
+    background-color: rgb(255, 60, 111, 0.1);
     background-repeat: no-repeat;
     border-radius: 1vw;
-    background-color: #4d4855;
-    background-image: url("/images/motherboard.webp");
     isolation: isolate;
     overflow: hidden;
-    border: 0.2vw solid black;
+    border: 2px solid blueviolet;
     transition: all 0.1s linear;
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
       margin-top: 2vh;
@@ -549,30 +544,9 @@
     }
   }
   
-  .right_side .col3::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    backdrop-filter: blur(3px);
-    background-color: rgb(213, 254, 253);
-    background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
-    opacity: 0.4;
-    animation: dissolve 7s infinite alternate;
-  }
-  @keyframes dissolve {
-    0% {
-      opacity: 0.5;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0.5;
-    }
-  }
+  
   .right_side .col3 .text7 {
-    color: purple;
+    color: white;
     text-transform: uppercase;
     font-family: exo;
     font-weight: 900;
@@ -586,8 +560,8 @@
   
   .right_side .col3 .text8 {
     margin-top: 5vh;
-    border-bottom: 3px dotted black;
-    color: black;
+    border-bottom: 3px dotted blueviolet;
+    color: white;
     font-size: 1.2vw;
     font-weight: 700;
     cursor: pointer;
@@ -602,8 +576,8 @@
     cursor: pointer;
     margin-top: 3vh;
     padding-bottom: 1vh;
-    color: black;
-    border-bottom: 3px dotted black;
+    color: white;
+    border-bottom: 3px dotted blueviolet;
     font-size: 1.2vw;
     font-weight: 700;
     display: flex;
@@ -622,8 +596,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1vw;
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    background-color: rgb(255, 60, 111, 0.1);
+    border: 2px solid blueviolet;
     isolation: isolate;
     overflow: hidden;
     transition: all 0.1s linear;
@@ -651,7 +625,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px dotted white;
+    border-bottom: 2px solid blueviolet;
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
       font-size: 6vw;
     }
@@ -699,8 +673,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1vw;
-    background-color: #485461;
-    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    background-color: rgb(255, 60, 111, 0.1);
+    border: 2px solid blueviolet;
     isolation: isolate;
     transition: all 0.1s linear;
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
