@@ -148,8 +148,8 @@ const hero = () => {
                 <div className="flex justify-center items-center gap-1"></div>
               </h3>
               <div className="flex items-start justify-between flex-col">
-                <p className="text14">SRMVEC CSI Student Branch </p>
-                <p className="text15">Whitehatians Cyber Club - VEC</p>
+                <p className="text14">SRM  </p>
+                <p className="text15">ACM SIGKDD Club </p>
                 <div className="round2"></div>
               </div>
             </div>
