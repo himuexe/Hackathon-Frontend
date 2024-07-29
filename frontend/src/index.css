@@ -9,14 +9,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: martin;
-    src: url(../public/fonts/Martin-Grely-Font/Martin\ Grely.ttf);
-    font-weight: regular;
-    font-style: normal;
-    display: swap;
-  }
+  font-family: ghenera;
+  src: url(../public/fonts/Ghenera-Font/GHENERA.ttf);
+  font-weight: regular;
+  font-style: normal;
+  display: swap;
+}
 
 
 @font-face {
@@ -30,13 +29,6 @@
 @font-face {
     font-family: mideltone;
     src: url(../public/fonts/mideltone/MIDELTONEROUGH.ttf);
-    font-weight: regular;
-    font-style: normal;
-    display: swap;
-  }
-  @font-face {
-    font-family: swera;
-    src: url(../public/fonts/swera/Swera\ Regular\ Demo.otf);
     font-weight: regular;
     font-style: normal;
     display: swap;

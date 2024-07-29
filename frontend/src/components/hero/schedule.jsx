@@ -35,7 +35,7 @@ const schedule = () => {
             <div className="container" id="timeline-container">
               <h2 className="date">
                 <div>
-                  Aug
+                  Sep
                   <div>
                     <div> 17</div> <div>th</div>
                   </div>
@@ -55,11 +55,11 @@ const schedule = () => {
               <h2 className="container-title">Abstract Submission</h2>
               <h1 className="date">
                 <div>
-                  Aug
+                  Sep
                   <div>
                     <div>17</div> <div>th</div>
                   </div>
-                  -Aug
+                  -Sep
                   <div>
                     <div>28</div> <div>th</div>
                   </div>
@@ -76,7 +76,7 @@ const schedule = () => {
             <div className="container ">
               <h1 className="date">
                 <div>
-                  Aug
+                  Sep
                   <div>
                     <div>28</div> <div>th</div>
                   </div>
@@ -97,7 +97,7 @@ const schedule = () => {
               <h2 className="container-title">Finalists Announcements</h2>
               <h1 className="date">
                 <div>
-                  Sep
+                  Oct
                   <div>
                     <div>1</div> <div>st</div>
                   </div>
@@ -117,11 +117,11 @@ const schedule = () => {
               <h2 className="container-title">Hackathon Finale</h2> <br />
               <h1 className="date">
                 <div>
-                  sep
+                  Oct
                   <div>
                     <div>8</div> <div>th</div>
                   </div>
-                  - sep
+                  - Oct
                   <div>
                     <div>9</div> <div>th</div>
                   </div>
@@ -139,7 +139,7 @@ const schedule = () => {
               <h2 className="container-title">Award Ceremony</h2>
               <h1 className="date">
                 <div>
-                  sep
+                  Oct
                   <div>
                     <div>9</div> <div>th</div>
                   </div>
@@ -168,7 +168,7 @@ const schedule = () => {
               <h2 className="container-title-mobile">Registration opens</h2>{" "}
               <h2 className="date-mobile">
                 <div>
-                  Aug
+                  Sep
                   <div>
                     <div>17</div> <div>th</div>
                   </div>
@@ -188,11 +188,11 @@ const schedule = () => {
               <h1 className="date-mobile">
                 {" "}
                 <div>
-                  Aug
+                  Sep
                   <div>
                     <div>17</div> <div>th</div>
                   </div>
-                  -Aug
+                  -Sep
                   <div>
                     <div>28</div> <div>th</div>
                   </div>
@@ -210,7 +210,7 @@ const schedule = () => {
               <h2 className="container-title-mobile">Finalists Annoncements</h2>
               <h1 className="date-mobile">
                 <div>
-                  Sep
+                  Oct
                   <div>
                     <div>1</div> <div>st</div>
                   </div>
@@ -229,7 +229,7 @@ const schedule = () => {
               <h2 className="container-title-mobile">Registration Closes</h2>
               <h1 className="date-mobile">
                 <div>
-                  Aug
+                  Sep
                   <div>
                     <div>28</div> <div>th</div>
                   </div>
@@ -249,11 +249,11 @@ const schedule = () => {
               <br />
               <h1 className="date-mobile">
                 <div>
-                  sep
+                  Oct
                   <div>
                     <div>8</div> <div>th</div>
                   </div>
-                  - sep
+                  - Oct
                   <div>
                     <div>9</div> <div>th</div>
                   </div>
@@ -271,7 +271,7 @@ const schedule = () => {
               <h2 className="container-title-mobile">Award Ceremony</h2>
               <h1 className="date-mobile">
                 <div>
-                  sep
+                  Oct
                   <div>
                     <div>9</div> <div>th</div>
                   </div>

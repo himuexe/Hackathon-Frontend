@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 0; /* Initialize the line height to 0 */
+  height: 0; 
   animation: timelineLine 5s linear forwards;
 }
 
@@ -80,7 +80,7 @@
   gap: 2vh;
   margin-bottom: 5vh;
   opacity: 0;
-  width: 45%; /* Adjust the width to fit your design */
+  width: 45%;
   border: 3px solid blueviolet;
 }
 .container::before {

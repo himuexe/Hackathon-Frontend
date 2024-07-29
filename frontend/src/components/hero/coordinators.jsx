@@ -18,7 +18,7 @@ const coordinators = () => {
             />
             <h1 className="convener-name">Salman Khan</h1>
             <h1 className="convener-position">
-              Assistant Professor - BLockchain
+              Assistant Professor - Blockchain
             </h1>
           </div>
           <div className="convener-card">

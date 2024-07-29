@@ -19,7 +19,7 @@
 
 .agenda .title2 .title-name {
   font-size: 50px;
-  color: whitesmoke;
+  color: white;
   margin-left: 6vw;
   font-family: "panda";
   font-weight: 900;
@@ -64,7 +64,6 @@
   text-align: justify;
   padding: 3vh 3vw;
   border: 5px solid blueviolet;
-  font-family: raleway;
   font-size: 1.5vw;
   font-weight: 600;
   position: relative;
@@ -91,13 +90,6 @@
     padding: 0;
   }
 }
-.parent-vision::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  opacity: 0.1;
-}
 
 .about-vision-image,
 .about-mission-image {
@@ -121,12 +113,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: panda;
+  font-family: "panda";
   font-size: 4vw;
-  font-weight: 100;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: whitesmoke;
+  color: white;
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 6vw;
@@ -142,12 +134,10 @@
   border-top: 5px solid blueviolet;
   border-left: 5px solid blueviolet;
   border-bottom: 5px solid blueviolet;
-  font-family: raleway;
   font-size: 1.3vw;
   font-weight: 600;
   position: relative;
   isolation: isolate;
-  background: rgb(0, 0, 0, 0.9);
   color: white;
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -182,22 +172,16 @@
     padding-bottom: 3vh;
   }
 }
-.mission::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-}
 .about-mission-title {
   margin-right: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: panda ;
+  font-family: "panda" ;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 4vw;
-  font-weight: 100;
+  font-weight: 900;
   color: white;
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -214,7 +198,6 @@
   border-top: 5px solid blueviolet;
   border-right: 5px solid blueviolet;
   border-bottom: 5px solid blueviolet;
-  font-family: raleway;
   font-size: 1.3vw;
   font-weight: 600;
   position: relative;

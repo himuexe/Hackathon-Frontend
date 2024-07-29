@@ -194,11 +194,11 @@ const contact = () => {
               <div className="contact-card1">
                 <div className="contact-card-front">
                   <img
-                    src="/images/me.webp"
+                    src="/images/mw.jpg"
                     alt="Ryan Gosling"
                   />
                   <div className="contact-card-details">
-                    <h1 className="contact-card-name">Himanshu Sharma</h1>
+                    <h1 className="contact-card-name">Himanshu</h1>
                     <h2 className="contact-card-description">
                       Lead -WEBD
                     </h2>

@@ -71,8 +71,7 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              This is open to all undergraduate students from all
-              colleges across India.
+              This is open to all undergraduate students from SRM.
             </p>
           </div>
 
@@ -142,7 +141,7 @@ const faqs = () => {
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is the team size to participate in the Hack-A-Tank?
+              What is the team size to participate in the Hackathon?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
