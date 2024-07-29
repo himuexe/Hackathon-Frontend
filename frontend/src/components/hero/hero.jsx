@@ -1,5 +1,5 @@
 import "./hero.css";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Sponsors from "./sponsors";
 import Agenda from "./agenda";
 import Footer from "../footer/footer";

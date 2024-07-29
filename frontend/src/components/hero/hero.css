@@ -138,6 +138,7 @@
     margin-top: 5vh;
     position: relative;
     padding: 0.5vh 0.5vw;
+    margin-bottom: 10vh;
     background: rgb(255, 60, 111, 0.1);
     border: 3px solid blueviolet;
     border-radius: 2vw;
@@ -173,4 +174,3 @@
     }
   }
 
-  
