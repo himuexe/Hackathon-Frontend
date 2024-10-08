@@ -15,8 +15,8 @@
 .sponsors-title {
   position: relative;
   font-size: 45px;
-  color: white;
-  font-family: "panda";
+  color: #ff5e00;
+  font-family: "Empire";
   letter-spacing: 2px;
   font-weight: 900;
   display: flex;
@@ -53,7 +53,7 @@
 .sponsors-border {
   position: relative;
   padding: 2vh 1vw;
-  border: 5px solid blueviolet;
+  border: 3px solid #ff5e00;
   display: flex;
   gap: 1vw;
   align-items: center;
@@ -65,15 +65,7 @@
     padding: 0vh 1vw;
   }
 }
-.sponsors-border::after {
-  content: " ";
-  position: absolute;
-  z-index: -2;
-  inset: 0;
-  opacity: 1;
-  background-color: rgb(255, 60, 111, 0.1);
 
-}
 
 .sponsors-container img {
   width: 10vw;
