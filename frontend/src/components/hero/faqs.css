@@ -60,7 +60,7 @@
 
 .faqs-content {
   padding: 0.5vh 1vw;
-  border-radius: 0.5vw;
+  border-radius: 2px;
   color: white;
   display: flex;
   flex-direction: column;
