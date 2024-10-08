@@ -6,6 +6,8 @@ import Footer from "../footer/footer";
 import Schedule from "./schedule";
 import KeyboardDoubleArrowRightSharpIcon from "@mui/icons-material/KeyboardDoubleArrowRightSharp";
 import ReactGA from "react-ga";
+import { gsap } from "gsap";
+
 
 
 

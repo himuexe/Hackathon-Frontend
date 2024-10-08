@@ -4,16 +4,16 @@
 
 @font-face {
   font-family: 'Empire';
-  src: url('../public/fonts/empire/EvilEmpire.otf') format('truetype');
+  src: url('/fonts/empire/EvilEmpire.otf') format('truetype');
 }
 @font-face {
   font-family: 'Rifle';
-  src: url('../public/fonts/rifle/armalite.ttf') format('truetype');
+  src: url('/fonts/rifle/armalite.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Science';
-  src: url('../public/fonts/science/Rabid\ Science.ttf') format('truetype');
+  src: url('/fonts/science/Rabid\ Science.ttf') format('truetype');
 }
   html,
   body {
