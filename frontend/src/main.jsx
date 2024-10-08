@@ -5,6 +5,7 @@ import './index.css'
 import Navbar from "./components/navbar/navbar"
 import Hero from "./components/hero/hero"
 ReactDOM.createRoot(document.getElementById('root')).render(
+  
   <React.StrictMode>
   <BrowserRouter>
     <Routes>
@@ -13,8 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           className="bg"
           element={
             <div>
-              <Navbar />
-              <Hero />
+              <Navbar className="flair flair--3" />
+              <Hero className="flair flair--3" />
             </div>
           }
         />

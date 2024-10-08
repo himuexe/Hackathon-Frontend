@@ -1,39 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira Sans Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Audiowide:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: ghenera;
-  src: url(../public/fonts/Ghenera-Font/GHENERA.ttf);
-  font-weight: regular;
-  font-style: normal;
-  display: swap;
+  font-family: 'Empire';
+  src: url('../public/fonts/empire/EvilEmpire.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Rifle';
+  src: url('../public/fonts/rifle/armalite.ttf') format('truetype');
 }
 
-
 @font-face {
-    font-family: panda;
-    src: url(../public/fonts/kung-fu-master-font/KungFuMaster3D-K7vxe.otf);
-    font-weight: regular;
-    font-style: normal;
-    display: swap;
-  }
-
-@font-face {
-    font-family: mideltone;
-    src: url(../public/fonts/mideltone/MIDELTONEROUGH.ttf);
-    font-weight: regular;
-    font-style: normal;
-    display: swap;
-  }
-
+  font-family: 'Science';
+  src: url('../public/fonts/science/Rabid\ Science.ttf') format('truetype');
+}
   html,
   body {
     overflow-x: hidden;
@@ -43,7 +24,6 @@
   * {
     margin: 0;
     padding: 0;
-    font-family: poppins;
     outline: none;
     -webkit-tap-highlight-color: transparent;
   }
@@ -60,20 +40,15 @@
     inset: 0;
     background-image: linear-gradient(
       to bottom,
-      #ffffff,
-      #f1f1f2,
-      #e5e2e4,
-      #d9d4d7,
-      #cdc6c8,
-      #cdc6c8,
-      #cdc6c8,
-      #cdc6c8,
-      #d9d4d7,
-      #e5e2e4,
-      #f1f1f2,
-      #ffffff
+      #663300,
+      #774400,
+      #885500,
+      #996600,
+      #aa7700,
+      #bb8800,
+      #cc9900
     );
-    box-shadow: 0vw 1vw 3vw 1vw #6a5acd;
+    box-shadow: 0vw 1vw 3vw 1vw #663300;
   }
   .bg {
     position: relative;

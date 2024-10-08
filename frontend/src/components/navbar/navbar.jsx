@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="parent">
         <div className="components">
           <div className="title" onClick={() => window.open("/", "_self")}>
-            SIGKDD
+            Hack of Duty
           </div>
           <ul>
             <li>
@@ -78,7 +78,7 @@ const Navbar = () => {
               className="title-mobile"
               onClick={() => window.open("/", "_self")}
             >
-              SIGKDD
+              Hack of Duty
             </div>
             <div className="last-mobile">
               <h2 className="register-mobile">

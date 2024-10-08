@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as LaunchLink } from "../../assets/link-launch.svg";
 import "./sponsors.css";
 import Faqs from "./faqs"
 import Contact from "./contact"
@@ -25,7 +24,6 @@ const sponsors = () => {
                 </a>
               </h1>
             </div>{" "}
-            <LaunchLink className="link-launch-icon" />
           </div>
         </div>
         <Faqs/>
