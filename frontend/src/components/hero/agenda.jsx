@@ -41,7 +41,7 @@ const agenda = () => {
   }, []);
 
   return (
-    <div className="section2">
+    <div className="section2 " id="agenda">
     <div className="wrapper">
       <div className="agenda" ref={agendaRef}>
         <div className="title2">
