@@ -11,10 +11,7 @@ const footer = () => {
           2024 - {"All Rights Reserved."}
         </p>
         <p className="copyright">
-          Developed by {"  "}
-          <a href="https://github.com/himuexe" target="_blank">
-             Himanshu Sharma
-          </a>
+          Developed by Himanshu Sharma
         </p>
       </div>
     </React.Fragment>

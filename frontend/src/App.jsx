@@ -17,7 +17,6 @@ const App = () => {
       <div className="bg-sep"></div>
       <Sponsors />
       <Footer />
-      <div className="bg-sep"></div>
     </div>
   );
 };
