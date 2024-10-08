@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css'
 import Navbar from "./components/navbar/navbar"
 import Hero from "./components/hero/hero"
+import App from './App';
 ReactDOM.createRoot(document.getElementById('root')).render(
   
   <React.StrictMode>
@@ -13,10 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           path="/"
           className="bg"
           element={
-            <div>
-              <Navbar className="flair flair--3" />
-              <Hero className="flair flair--3" />
-            </div>
+           <App/>
           }
         />
     </Routes>

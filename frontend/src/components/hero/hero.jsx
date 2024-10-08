@@ -1,15 +1,7 @@
 import "./hero.css";
 import React from "react";
-import Sponsors from "./sponsors";
-import Agenda from "./agenda";
-import Footer from "../footer/footer";
-import Schedule from "./schedule";
 import KeyboardDoubleArrowRightSharpIcon from "@mui/icons-material/KeyboardDoubleArrowRightSharp";
 import ReactGA from "react-ga";
-import { gsap } from "gsap";
-
-
-
 
 const hero = () => {
     
@@ -38,14 +30,6 @@ const hero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-sep"></div>
-      <Agenda />
-      <div className="bg-sep"></div>
-      <Schedule />
-      <div className="bg-sep"></div>
-      <Sponsors />
-      <Footer />
-      <div className="bg-sep"></div>
     </React.Fragment>
   );
 };
